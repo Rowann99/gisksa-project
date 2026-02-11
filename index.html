@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulf Industrial Solutions - Leading Industrial Service Provider in Saudi Arabia</title>
+    <meta name="description" content="Gulf Industrial Solutions (GIS) - Premier industrial service provider for Oil & Gas, Engineering, and Manufacturing sectors in Saudi Arabia">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="GIS111.jpg">
+</head>
+<body>
+
+<svg width="0" height="0" style="position: absolute;">
+  <defs>
+    <!-- Pattern 1: Diagonal Stripes (for Hero) -->
+    <pattern id="hero-pattern" patternUnits="userSpaceOnUse" width="20" height="20">
+      <rect width="20" height="20" fill="#0D3B66"/>
+      <path d="M0,0 L20,20 M20,0 L0,20" stroke="#1B5A8F" stroke-width="1"/>
+    </pattern>
+    
+    <!-- Pattern 2: Dots (for About) -->
+    <pattern id="about-pattern" patternUnits="userSpaceOnUse" width="30" height="30">
+      <rect width="30" height="30" fill="#F5F5F5"/>
+      <circle cx="15" cy="15" r="2" fill="#DC3545"/>
+    </pattern>
+    
+    <!-- Pattern 3: Horizontal Lines (for Services) -->
+    <pattern id="services-pattern" patternUnits="userSpaceOnUse" width="40" height="40">
+      <rect width="40" height="40" fill="#F5F5F5"/>
+      <line x1="0" y1="20" x2="40" y2="20" stroke="#1B5A8F" stroke-width="1"/>
+    </pattern>
+    
+    <!-- Pattern 4: Hexagons (for Clients) -->
+    <pattern id="clients-pattern" patternUnits="userSpaceOnUse" width="50" height="50">
+      <rect width="50" height="50" fill="#F5F5F5"/>
+      <polygon points="25,5 45,15 45,35 25,45 5,35 5,15" fill="none" stroke="#0D3B66" stroke-width="1"/>
+    </pattern>
+    
+    <!-- Pattern 5: Vertical Lines (for Contact) -->
+    <pattern id="contact-pattern" patternUnits="userSpaceOnUse" width="25" height="25">
+      <rect width="25" height="25" fill="#F5F5F5"/>
+      <line x1="12.5" y1="0" x2="12.5" y2="25" stroke="#DC3545" stroke-width="1"/>
+    </pattern>
+  </defs>
+</svg>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Page Navigation Indicator -->
+    <div class="page-indicator">
+        <div class="indicator-item active" data-section="home">Home</div>
+        <div class="indicator-item" data-section="about">About</div>
+        <div class="indicator-item" data-section="content">Content</div>
+        <div class="indicator-item" data-section="services">Services</div>
+        <div class="indicator-item" data-section="clients">Clients</div>
+        <div class="indicator-item" data-section="contact">Contact</div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="nav-brand">
+                <img src="logo.png" alt="GIS Logo" class="logo" onerror="this.style.display='none'">
+                <span class="company-name">Gulf Industrial Solutions</span>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#content">Content</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#clients">Our Clients</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Background Image -->
+    <section id="home" class="hero">
+        <!-- Add your background image in CSS: background-image: url('hero-bg.jpg') -->
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Gulf Industrial Solutions</h1>
+            <p class="hero-subtitle">Premier Industrial Service Provider in Saudi Arabia</p>
+            <p class="hero-description">Leading technology partner for Oil & Gas, Engineering, and Manufacturing sectors</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section (Vision, Mission, Values) -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About GIS</h2>
+            
+            <!-- Introduction -->
+            <div class="intro-card">
+                <p>Gulf Industrial Solutions is introducing itself as an industrial service provider for Oil and Gas, Engineering has been launched in the Kingdom of Saudi Arabia with the aim of providing industrial services for Oil and Gas, Engineering and Manufacturing Sectors.</p>
+                
+                <p>Our expertise includes Shutdowns and Turnarounds work, Catalyst Handling, Industrial Cleaning, Fabrication works and Specialized Manpower Support Services to different industries by committing to complete responsibility towards installation, maintenance, testing, and commissioning.</p>
+                
+                <p>We would like to bring in our hands-on knowledge and expertise to offer our services with advanced technological solutions across wide range of industrial sectors meeting the quality, health, safety, and the environmental standards.</p>
+            </div>
+
+            <!-- Vision, Mission, Values Cards -->
+            <div class="vmv-grid">
+                <div class="vmv-card">
+                    <h3>Our Vision</h3> 
+                    <p>The vision of Gulf Industrial Solutions is to continue the heritage of our Company and be a premier Saudi Arabia's one of the top company. We dedicate ourselves to be the leading technology partner for downstream sector of oil and gas and engineering industries.</p>
+                    <p>This vision will be accomplished by sharing the responsibilities of planning and decision making with all of our employees.</p>
+                    <p>Gulf Industrial Solutions will strive to maintain the image with its Clients, Employees and Community as a company of excellence.</p>
+                    <!-- <img src="petroleum-engineering-2.jpg" alt="Vision Photo" class="vmv-image">  Added photo below text -->
+                </div>
+
+                <div class="vmv-card">
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to produce and continually develop quality products at a competitive price while fostering a climate where environmental technologies can thrive.</p>
+                    <p>We will always strive to service our customer with the utmost integrity, and to their complete satisfaction.</p>
+                    <p>It is our goal to ensure our mission by continuous self-improvement, growth in our operations and employees; while maintaining profitability to the benefit of our customers, employees, and community.</p>
+                    <!-- <img src="process-manufacturing.jpg" alt="Vision Photo" class="vmv-image">  Added photo below text -->
+                </div>
+
+                <div class="vmv-card">
+                    <h3>Our Values</h3>
+                    <ul class="values-list">
+                        <li><strong>Knowledge & Information</strong></li>
+                        <li><strong>Valuable Resources</strong></li>
+                        <li><strong>Reciprocal Networking</strong></li>
+                        <li><strong>A Reputation of Excellence</strong></li>
+                        <li><strong>Manufacturing Industry Expertise</strong></li>
+                        <li><strong>Integrity among Members</strong></li>
+                        <li><strong>Participation and Contributions</strong></li>
+                    </ul>
+                    <p style="margin-top: 1rem; font-size: 0.95rem;">All membership experiences will seek to uphold these values, ensuring that the true membership experience in Manufacturing will be rewarding and valuable.</p>
+                    <!-- <img src="photo.jpg" alt="Vision Photo" class="vmv-image">  Added photo below text -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section (18 Expandable Cards) -->
+    <section id="content" class="content-section">
+        <div class="container">
+            <h2>Our Expertise & Content</h2>
+            <p class="section-subtitle">Explore our comprehensive range of capabilities and services</p>
+            
+            <!-- <div class="accordion-container"> -->
+            <div class="accordion-two-column">
+                <!-- LEFT COLUMN (Items 1-9) -->
+                <div class="accordion-column">
+                <!-- Accordion Item 1 -->
+                <div class="accordion-item expandable">
+                    <div class="accordion-header">
+                        <h3>Chrome plating</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>We specialize in high-precision hard chrome plating for hydraulic cylinder rods, ball valves, and a wide range of
+                        industrial components. Our chrome plating process delivers exceptional surface hardness, corrosion resistance, and
+                        reduced friction, ensuring longer service life and superior performance in demanding environments. We also
+                        provide chrome plating for shafts, rollers, plungers, molds, and other wear-critical parts used across heavy
+                        equipment, manufacturing, and oil & gas applications. With strict quality control and advanced finishing capabilities,
+                        we guarantee consistent thickness, excellent adhesion, and a mirror-smooth surface finish.</p>
+                    </div>
+                </div>
+
+                <!-- Accordion Item 2 -->
+                <div class="accordion-item expandable">
+                    <div class="accordion-header">
+                        <h3>Plant Shutdowns & Turnarounds</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Gulf industrial solutions have the ability to put our experts on site months in advance of a shutdown;
+                        planning, organising, and managing our people and subcontractors from start to finish.
+                        Combining our holistic approach to managing shutdowns with our multi-skilled workforce means
+                        we are able to provide a 'blinds toblinds' service; completing the entire project from pre-planning,
+                        through to the final stages before the plant is reactivated.
+                        By providing or managing all parties, Abeek Al Arabia will be able to operate rapidly, adapt to
+                        changing circumstances and requirements quickly and will be one of the safest company in the oil
+                        and gas industry.</p>
+                    </div>
+                </div>
+
+                <!-- Accordion Item 3 -->
+                <div class="accordion-item expandable">
+                    <div class="accordion-header">
+                        <h3>Road blocker system & Arm Barriers (trading & service)</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>We are dedicated to providing top-quality services for the repair and fabrication of hydraulic road blockers,
+                        designed to meet the highest safety standards. Our skilled technicians utilize state-of-the-art technology to
+                        ensure that each road blocker is reliable, robust, and capable of withstanding heavy-duty use.
+                        Whether it's routine maintenance, urgent repairs, or custom fabrication, we deliver solutions tailored to your
+                        specific security needs, ensuring the protection of your premises with unparalleled efficiency and expertise.</p>
+                    </div>
+                </div>
+
+                <!-- Accordion Item 4 -->
+                <div class="accordion-item expandable">
+                    <div class="accordion-header">
+                        <h3>Bundle Pulling Services</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Gulf industrial solutions bundle pulling and inserting capabilities are wide with the highly skilled and
+                        experienced operators who can handle different ranges of heat exchanger bundles using various
+                        international bundle pullers.
+                        Our hydraulic Tube Bundle Lifters are further able to decrease the time taken in the cleaning
+                        process, while also increasing operatorsafety. Using a wireless remote, a single operator is able to
+                        control a lifter from a safe distance.
+                        The 30 ton capacity of a lifter means that almost all standard tube bundles can be moved in this
+                        way, and the 3.6m long plates used to support the bundle avoid damage or mechanical stress to
+                        the unit.</p>
+                    </div>
+                </div>
+
+                 <!-- Accordion Item 5 -->
+                <div class="accordion-item expandable">
+                    <div class="accordion-header">
+                        <h3>Flange/Joint Integrity Management
+                            (Bolt Torquing & Tensioning)</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Gulf industrial solutions offers Hydraulic Bolt Torquing, the most familiar technique for the prevention of
+                        leaks in bolted assemblies We will assure the integrity of the Flange/Joints and is a key for any
+                        successful completion and start-up of a plant upon completing the activities during
+                        shutdowns/turnarounds and other projects.
+                        We will be able to support and offer this with a complete documented process starting from
+                        marking/tagging, database creation, inspection, materials management, witnessing and
+                        controlled bolt torquing and tensioning. We can handle this with the specialized team comprising
+                        of Inspectors and bolting technicians who are highly qualified and will be trained, certified
+                        in our training facility.</p>
+                    </div>
+                </div>
+
+                <!-- Accordion Item 6 -->
+                <div class="accordion-item expandable">
+                    <div class="accordion-header">
+                        <h3>Repair of Hydraulic & Pneumatic Cylinder
+                            & Manufacturing of New One.</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Repair
+                        typically includes disassembling the cylinder, diagnosing issues (like leaks, worn seals, or damaged rods),
+                        replacing faulty parts, and reassembling the unit.
+                        It ensures that the cylinder can function correctly without needing a complete replacement.
+
+                        *Fabrication
+                        involves designing and manufacturing hydraulic cylinders from scratch, tailored to specific requirements.
+                        This process includes selecting materials, machining components, and assembling them to meet precise
+                        specifications for industrial, automotive, or heavy machinery applications.</p>
+                    </div>
+                </div>
+
+                <!-- Accordion Item 7 -->
+                <div class="accordion-item expandable">
+                    <div class="accordion-header">
+                        <h3>Fabrication & Welding Services</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Gulf industrial solutions utilises the latest fabrication and welding techniques to engineer components
+                        and structures in a wide range of metals. Our highly qualified welders are approved to ASME IX,
+                        API and AWS standards.
+                        Multi-discipline, class approved, on site welding offers customers a range of specialist skills
+                        ensuring high integrity welding processes.
+                        Each welder is regularly audited to ensure conformance to numerous specifications and standards
+                        in MIG, TIG and MMA.
+                        A dedicated fabrication and welding area ensures no cross contamination between ferrous and
+                        non-ferrous materials. Welds are subjected to certify NDT testing to meet individual requirements.</p>
+                    </div>
+                </div>
+
+                <!-- Accordion Item 8 -->
+                <div class="accordion-item expandable">
+                    <div class="accordion-header">
+                        <h3>Plant Pre-Commissioning Services</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Gulf industrial solutions cater to our clients' plant pre-commissioning needs across industries such as oil
+                        and gas, petrochemical, steel and power industry throughout Saudi Arabia.
+                        Our highly trained team is dedicated to meet the requirements for any pre-commissioning
+                        services including steam blowing, air blowing, oil flushing, chemical cleaning, fluid pumping,
+                        nitrogen services, pipeline pigging and testing, chemical degassing and decontamination,
+                        hydro-testing, filtration and fluid heating services.</p>
+                    </div>
+                </div>
+
+                <!-- Accordion Item 9 -->
+                <div class="accordion-item expandable">
+                    <div class="accordion-header">
+                        <h3>Skilled & Specialized Manpower Support Services</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Gulf industrial solutions can provide different skilled and specialized manpower trades to cover
+                        shutdowns/turnarounds, mechanical projects, piping, structural, civil etc. to cover all the oil & gas,
+                        petrochemical and other engineering industries. We have the complete resource database and
+                        would be capable to support our client's requirements in shortest possible time.
+                        We provide highly qualified professionals and skilled workers to support workforce for any duration
+                        under our sponsorship and reduce the worries of our clients regarding compensation, insurance,
+                        labour law and accommodation for their employees.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN (Items 10-18) -->
+            <div class="accordion-column">
+
+                <!-- Accordion Item 10 -->
+                <div class="accordion-item expandable">
+                    <div class="accordion-header">
+                        <h3>Scaffolding Services</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Gulf industrial solutions offers variety of Scaffolding which are manufactured using fine metal, which
+                        ensures high strength to our products. Scaffoldings are available in different sizes and specification
+                        and also it can be customized as per client's demand. For easy assembly and dismantling features,
+                        the offered range of scaffolding items can be used in heavy loading applications. Available
+                        inaccurate dimensions, our offered range of scaffolding products are available at reasonable cost.
+                        We are offering a complete industrial scaffolding service. We have the industry's largest pool of
+                        skilled scaffold builders and project managers as well as rentable industrial scaffolding assets. All
+                        ready to be deployed as per your request & requirement.</p>
+                    </div>
+                </div>
+
+                <!-- Accordion Item 11 -->
+                <div class="accordion-item expandable">
+                    <div class="accordion-header">
+                        <h3>Supplying materials & workshops</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>We provide high-quality materials and engaging workshops that enable our customers to achieve their creative goals successfully and efficiently.</p>
+                    </div>
+                </div>
+
+                <!-- Accordion Item 12 -->
+                <div class="accordion-item expandable">
+                    <div class="accordion-header">
+                        <h3>Civil works (Industrial & Residential)</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p> Gulf industrial solutions's civil engineering division is able to involve in a wide range of Civil Engineering
+                        projects across Saudi Arabia. It specializes in planning, construction and erection, complex and
+                        high tolerance industrial concrete structures, earthworks, scaffolding services, pre-cast concrete
+                        elements, buildings, villas and temporary site office facilities. Our Civil division also maintains the
+                        highest standards of Quality & Safety right from the commencement to the handing over of the
+                        project.
+                        Since the water table here in Saudi Arabia is quite high, we specialize in executing Open, WellPoint
+                        as well as Deep Well dewatering systems to lower the groundwater table to a considerable depth.
+                        Dewatering systems help construction sites to lower the ground water level to considerable levels,
+                        and helps large construction sites reduce the water table level. Our offerings include a complete
+                        range of dewatering pumps for any dewatering systems as per our clients' needs.</p>
+                    </div>
+                </div>
+
+                <!-- Accordion Item 13 - No Details -->
+                <div class="accordion-item no-expand">
+                    <div class="accordion-header">
+                        <h3>Fabrication of SEAL & O RING, we have all of the special seals.</h3>
+                    </div>
+                </div>
+
+                <!-- Accordion Item 14 - No Details -->
+                <div class="accordion-item no-expand">
+                    <div class="accordion-header">
+                        <h3>Supplying all spare parts for hydraulic & pneumatic.</h3>
+                    </div>
+                </div>
+
+
+                <!-- Accordion Item 15 - No Details -->
+                <div class="accordion-item no-expand">
+                    <div class="accordion-header">
+                        <h3>Heavy Equipment Overhauling</h3>
+                    </div>
+                </div>
+
+                <!-- Accordion Item 16 - No Details -->
+                <div class="accordion-item no-expand">
+                    <div class="accordion-header">
+                        <h3>Fabrication of Power Pack. 
+                            Hydraulic Pumps Repair.</h3>
+                    </div>
+                </div>
+
+                <!-- Continue for remaining items... -->
+                <div class="accordion-item no-expand">
+                    <div class="accordion-header">
+                        <h3>Repair of Valves.
+                            Flushing for oil & Oxygen pipe.</h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item no-expand">
+                    <div class="accordion-header">
+                        <h3>Diesel Engine Overhauling</h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item no-expand">
+                    <div class="accordion-header">
+                        <h3>Repair of Tower Light, Electrical Motors, welding Machine, Diesel water Pump , ETC ....</h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item no-expand">
+                    <div class="accordion-header">
+                        <h3>Our Electric Jobs</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- <section id="content" class="content-section">
+        <div class="container">
+            <h2>Our Expertise & Content</h2>
+            <p class="section-subtitle">Explore our comprehensive range of capabilities and services</p>
+            
+            <div class="content-grid"> -->
+                <!-- Card 1 - With Details --> 
+                <!-- <div class="content-card expandable">
+                    <div class="card-header">
+                        <h3>Shutdowns & Turnarounds</h3>
+                        <span class="expand-badge">Details</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="details-content">
+                            <p>Comprehensive shutdown and turnaround services ensuring minimal downtime and maximum efficiency. Our experienced team handles complete project management from planning to execution.</p>
+                            <ul>
+                                <li>Pre-shutdown planning and preparation</li>
+                                <li>Execution and coordination</li>
+                                <li>Post-shutdown analysis and reporting</li>
+                                <li>Safety compliance and quality assurance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Card 2 - With Details -->
+                <!-- <div class="content-card expandable">
+                    <div class="card-header">
+                        <h3>Catalyst Handling</h3>
+                        <span class="expand-badge">Details</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="details-content">
+                            <p>Specialized catalyst handling services with trained personnel and proper equipment to ensure safe and efficient operations.</p>
+                            <ul>
+                                <li>Catalyst loading and unloading</li>
+                                <li>Transportation and storage</li>
+                                <li>Safety protocols and environmental compliance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Card 3 - With Details -->
+                <!-- <div class="content-card expandable">
+                    <div class="card-header">
+                        <h3>Industrial Cleaning</h3>
+                        <span class="expand-badge">Details</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="details-content">
+                            <p>Advanced industrial cleaning solutions using state-of-the-art equipment and environmentally friendly methods.</p>
+                            <ul>
+                                <li>Chemical cleaning</li>
+                                <li>Mechanical cleaning</li>
+                                <li>High-pressure water jetting</li>
+                                <li>Tank and vessel cleaning</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Card 4 - Title Only -->
+                <!-- <div class="content-card">
+                    <div class="card-header">
+                        <h3>Fabrication Works</h3>
+                    </div>
+                </div> -->
+
+                <!-- Card 5 - Title Only -->
+                <!-- <div class="content-card">
+                    <div class="card-header">
+                        <h3>Manpower Support</h3>
+                    </div>
+                </div> -->
+
+                <!-- Card 6 - With Details -->
+                <!-- <div class="content-card expandable">
+                    <div class="card-header">
+                        <h3>Installation Services</h3>
+                        <span class="expand-badge">Details</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="details-content">
+                            <p>Professional installation services with experienced technicians ensuring proper setup and commissioning of industrial equipment.</p>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Card 7 - Title Only -->
+                <!-- <div class="content-card">
+                    <div class="card-header">
+                        <h3>Maintenance Services</h3>
+                    </div>
+                </div> -->
+
+                <!-- Card 8 - Title Only -->
+                <!-- <div class="content-card">
+                    <div class="card-header">
+                        <h3>Testing & Commissioning</h3>
+                    </div>
+                </div> -->
+
+                <!-- Card 9 - With Details -->
+                <!-- <div class="content-card expandable">
+                    <div class="card-header">
+                        <h3>HSE Compliance</h3>
+                        <span class="expand-badge">Details</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="details-content">
+                            <p>Committed to the highest standards of Health, Safety, and Environmental compliance in all our operations.</p>
+                            <ul>
+                                <li>International safety standards</li>
+                                <li>Environmental protection protocols</li>
+                                <li>Continuous training and improvement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Card 10 - Title Only -->
+                <!-- <div class="content-card">
+                    <div class="card-header">
+                        <h3>Quality Assurance</h3>
+                    </div>
+                </div> -->
+
+                <!-- Card 11 - Title Only -->
+                <!-- <div class="content-card">
+                    <div class="card-header">
+                        <h3>Project Management</h3>
+                    </div>
+                </div> -->
+
+                <!-- Card 12 - Title Only -->
+                <!-- <div class="content-card">
+                    <div class="card-header">
+                        <h3>Engineering Solutions</h3>
+                    </div>
+                </div> -->
+
+                <!-- Card 13 - With Details -->
+                <!-- <div class="content-card expandable">
+                    <div class="card-header">
+                        <h3>Advanced Technology</h3>
+                        <span class="expand-badge">Details</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="details-content">
+                            <p>Utilizing cutting-edge technology and advanced solutions to deliver superior results across all industrial sectors.</p>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Card 14 - Title Only -->
+                <!-- <div class="content-card">
+                    <div class="card-header">
+                        <h3>Skilled Workforce</h3>
+                    </div>
+                </div> -->
+
+                <!-- Card 15 - Title Only -->
+                <!-- <div class="content-card">
+                    <div class="card-header">
+                        <h3>Equipment Supply</h3>
+                    </div>
+                </div> -->
+
+                <!-- Card 16 - Title Only -->
+                <!-- <div class="content-card">
+                    <div class="card-header">
+                        <h3>Training Programs</h3>
+                    </div>
+                </div> -->
+
+                <!-- Card 17 - Title Only -->
+                <!-- <div class="content-card">
+                    <div class="card-header">
+                        <h3>Integrated Services</h3>
+                    </div>
+                </div> -->
+
+                <!-- Card 18 - With Details -->
+                <!-- <div class="content-card expandable">
+                    <div class="card-header">
+                        <h3>Economic Solutions</h3>
+                        <span class="expand-badge">Details</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="details-content">
+                            <p>Providing cost-effective solutions with best economic models to support our valuable clients and partners with competitive pricing and value.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --> 
+
+<!-- Services Section -->
+<section id="services" class="services-section">
+    <div class="container">
+        <h2>Our Services</h2>
+        <p class="section-subtitle">Comprehensive industrial solutions tailored to your needs</p>
+
+        
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon-gray">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1 1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                    <h3>Mechanical Wet Seal Repair</h3>
+                    <p>We provide expert Mechanical Seal Repair of all major brands, including John Crane®, Flowserve®,
+                    Burgmann®, and more. we are the reliable, convenient single source repair for all styles of
+                    mechanical seals.</p>
+                    <b>Our Mission</b>
+                    <ul>
+                     <p>
+                        <b>Half Repair Price, Half Repair Time, OEM Quality and better after Repair Support</b>
+                     </p>
+                     <p>Send your seal(s) to our workshop or send your address and we can collect, and will perform the
+                    following without any cost charge.
+                    <ol>1. Seal disassembly and inspection Report.</ol>
+                    <ol> 2. Part scan bereused and new required parts. </ol>
+                    <ol> 3. Repair offer.</ol>
+                    If the customer accept our repair offer, the seal rebuilt and tested as API standard, or We can send
+                    back your seal <b>without any cost charge.</b></p>
+                    </ul>
+                    <b>Our Service Center Capabilities</b>
+                    <p>Mechanical seal repair for all seal manufacturers as we have a complete service center that
+                    contains all the required Tools and Equipment such as:</p>
+                    <ul>
+                        <li>Ultrasonic Cleaning machine</li>
+                        <li>Sandblasting Machine</li>
+                        <li>Lapping and Polishing machine</li>
+                        <li>Mechanical Seal Test as per API 682</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon-gray">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M3 9h18M9 21V9"/>
+                        </svg>
+                    </div>
+                    <h3>New Seals Selection and Supply</h3>
+                    <p>We can technically support for select and supply the correct seal type to meet your application or
+                    provide new equivalent seal with different brand, with same quality and more cost effective.
+                    Also, we can perform RCA analysis if you having any problem of your seal and provide the best
+                    solution.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon-gray">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="11" cy="11" r="8"/>
+                            <path d="m21 21-4.35-4.35"/>
+                        </svg>
+                    </div>
+                    <h3>Dry Gas Seal Trouble Shooting</h3>
+                    <p>We only company specialized in Egypt market for dry gas seal troubleshoot and installation
+                    We can perform RCA and health check for the dry gas seal and the gas conditioning system also
+                    we can provide support for dry gas seal replacement including fabrication of the removal and
+                    installation special tools.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon-gray">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3>Dry Gas Seal Installation and Startup</h3>
+                    <p>Comprehensive safety services ensuring adherence to international standards.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon-gray">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M2 12h2.5L7 7l3 5H12.5L15 7l3 5H22"/>
+                        </svg>
+                    </div>
+                    <h3>Vibration Analysis, Alignment and Feild Balance</h3>
+                    <p>IH offers a range of Vibration Analysis services. These services are carried out by experienced
+                    Engineers across a wide range of industries and applications, these include:</p>
+                    <ul>
+                        <li>Routine Machinery Assessment Surveys</li>
+                        <li>Machinery Troubleshooting</li>
+                        <li>Commissioning/Verification Services</li>
+                        <li>Shaft Alignment and Filed Balancing</li>
+                    </ul>
+                    <p>At IH we believe that experienced Engineers should collect routine data onsite for analysis and
+                    reporting. This allows for detailed discussions with the client on problems found before leaving site.
+                    Summary and detailed reporting on the faults found are emailed within 2-1 days for routine
+                    vibration surveys ..</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon-gray">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/>
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M12 8v8m-4-4h8"/>
+                        </svg>
+                    </div>
+                    <h3>Pump Repair</h3>
+                    <p>IH can provide pump repair services including Vibration
+                    analysis, maintenance, installation, troubleshooting, rebuilding, overhaul, grouting, re-grouting,
+                    mounting, reconditioning, performance testing, metal spraying, welding, hard facing, hot tank and
+                    steam cleaning, sand blasting, milling, balancing, lathe work, horizontal boring, laser alignment,
+                    rigging, moving, engineering, tooling, millwright and field services are also available. Quick
+                    turnaround time. 24-hour service</p>
+                   
+                </div>
+            </div>
+            <!-- Service 1
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="service-icon-gray">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Oil & Gas Services</h3>
+                        <p class="hover-hint">Hover for details</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="service-icon-color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Oil & Gas Services</h3>
+                        <p>Comprehensive services for the downstream sector including refinery maintenance, pipeline services, and specialized equipment handling.</p>
+                        <ul>
+                            <li>Refinery operations support</li>
+                            <li>Pipeline maintenance</li>
+                            <li>Equipment inspection</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            Service 2
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="service-icon-gray">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                <path d="M3 9h18M9 21V9"/>
+                            </svg>
+                        </div>
+                        <h3>Engineering Solutions</h3>
+                        <p class="hover-hint">Hover for details</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="service-icon-color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                <path d="M3 9h18M9 21V9"/>
+                            </svg>
+                        </div>
+                        <h3>Engineering Solutions</h3>
+                        <p>Advanced engineering services providing innovative solutions for complex industrial challenges.</p>
+                        <ul>
+                            <li>Design and planning</li>
+                            <li>Technical consulting</li>
+                            <li>Process optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            Service 3
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="service-icon-gray">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M20 7h-9M14 17H5M21 12L13 4M8 20l8-8"/>
+                            </svg>
+                        </div>
+                        <h3>Manufacturing Support</h3>
+                        <p class="hover-hint">Hover for details</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="service-icon-color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M20 7h-9M14 17H5M21 12L13 4M8 20l8-8"/>
+                            </svg>
+                        </div>
+                        <h3>Manufacturing Support</h3>
+                        <p>Complete manufacturing sector support including production optimization and quality control.</p>
+                        <ul>
+                            <li>Production efficiency</li>
+                            <li>Quality management</li>
+                            <li>Process improvement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            Service 4
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="service-icon-gray">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3>Safety & Compliance</h3>
+                        <p class="hover-hint">Hover for details</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="service-icon-color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3>Safety & Compliance</h3>
+                        <p>Comprehensive safety services ensuring adherence to international standards.</p>
+                        <ul>
+                            <li>HSE management</li>
+                            <li>Risk assessment</li>
+                            <li>Safety training</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            Service 5
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="service-icon-gray">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87m-4-12a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3>Manpower Solutions</h3>
+                        <p class="hover-hint">Hover for details</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="service-icon-color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87m-4-12a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3>Manpower Solutions</h3>
+                        <p>Specialized manpower support services providing skilled professionals.</p>
+                        <ul>
+                            <li>Skilled technicians</li>
+                            <li>Project-based staffing</li>
+                            <li>Training programs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            Service 6
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="service-icon-gray">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87m-4-12a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3>Manpower Solutions</h3>
+                        <p class="hover-hint">Hover for details</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="service-icon-color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87m-4-12a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3>Manpower Solutions</h3>
+                        <p>Specialized manpower support services providing skilled professionals.</p>
+                        <ul>
+                            <li>Skilled technicians</li>
+                            <li>Project-based staffing</li>
+                            <li>Training programs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</section>
+
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients-section">
+        <div class="container">
+            <h2>Our Valued Clients</h2>
+            <p class="section-subtitle">Trusted by leading companies across Saudi Arabia</p>
+            
+            <div class="clients-container">
+                <!-- Add your clients image here -->
+                <img src="clients.png" alt="Our Clients" class="clients-image" onerror="this.parentElement.innerHTML='<div class=\'placeholder-box\'><p>Client logos will be displayed here</p><p style=\'font-size: 0.9rem; color: #666; margin-top: 0.5rem;\'>Please add your clients image as \'clients.jpg\'</p></div>'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p class="section-subtitle">Get in touch with our team</p>
+            
+            <div class="contact-grid">
+                <!-- Contact Buttons -->
+                <div class="contact-buttons">
+                    <a href="tel:+966538039442" class="contact-btn call-btn">
+                        <div class="btn-icon">📞</div>
+                        <div class="btn-content">
+                            <span class="btn-label">Call Us</span>
+                            <span class="btn-value">966538039442</span>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/966538039442" target="_blank" class="contact-btn whatsapp-btn">
+                        <div class="btn-icon">💬</div>
+                        <div class="btn-content">
+                            <span class="btn-label">WhatsApp</span>
+                            <span class="btn-value">Chat with us</span>
+                        </div>
+                    </a>
+
+                    <a href="mailto:Sales@gisksa.com" class="contact-btn email-btn">
+                        <div class="btn-icon">📧</div>
+                        <div class="btn-content">
+                            <span class="btn-label">Email</span>
+                            <span class="btn-value">Sales@gisksa.com</span>
+                        </div>
+                    </a>
+
+                    <!-- <div class="contact-btn location-btn">
+                        <div class="btn-icon">📍</div>
+                        <div class="btn-content">
+                            <span class="btn-label">Location</span>
+                            <span class="btn-value">Alkhair industrial, dammam, Saudi arabia</span>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Contact Form -->
+                <!-- <div class="contact-form-container">
+                    <form class="contact-form" onsubmit="handleSubmit(event)">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input type="text" name="name" required placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" name="email" required placeholder="your@email.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="tel" name="phone" required placeholder="+966 XX XXX XXXX">
+                        </div>
+                        <div class="form-group">
+                            <label>Company (Optional)</label>
+                            <input type="text" name="company" placeholder="Your company name">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea name="message" required placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Gulf Industrial Solutions</h3>
+                <p>Premier industrial service provider for Oil & Gas, Engineering, and Manufacturing sectors in Saudi Arabia.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#clients">Our Clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <ul class="footer-contact">
+                    <li>📞 +966538039442</li>
+                    <li>📧 Sales@gisksa.com</li>
+                    <li>📍 Alkhair industrial, dammam, Saudi arabia</li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Business Hours</h3>
+                <ul>
+                    <li>Sunday - Thursday</li>
+                    <li>8:00 AM - 5:00 PM</li>
+                    <li>Friday - Saturday: Closed</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Gulf Industrial Solutions (GIS). All Rights Reserved.</p>
+            <p>Kingdom of Saudi Arabia</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
